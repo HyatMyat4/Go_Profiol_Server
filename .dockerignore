@@ -1,0 +1,32 @@
+# Ignore Docker files and directories
+.dockerignore
+dockerfile
+
+
+# Ignore editor and IDE files
+.vscode
+.idea
+
+# Ignore version control directories
+.git
+.svn
+
+# Ignore Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ignore Go test artifacts
+*.test
+*.test~
+test/
+
+# Ignore other build artifacts
+*.o
+*.a
+
+# Ignore project-specific files
+bin/
+vendor/

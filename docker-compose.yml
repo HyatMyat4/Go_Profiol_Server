@@ -1,0 +1,10 @@
+version: "3"
+services:
+  go-app:
+    build: .
+    ports:
+      - "4000:4000"            
+    env_file:
+      - ./.env
+   #environment:
+   #  - PORT=4000 
